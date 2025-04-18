@@ -1,0 +1,22 @@
+.btn-orange{
+	background-color: #FEBA17;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 5px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
+}
+
+.btn-orange:hover {
+    background-color: #F5C45E;
+    color: whitesmoke;
+}
+
+@media (max-width: 400px) {
+    .btn-orange{
+        margin: 20px;
+    }
+}
+
